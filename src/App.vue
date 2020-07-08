@@ -24,13 +24,16 @@
                 <!--          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"-->
                 <!--          width="100"-->
                 <!--        />-->
-                <h3 class="black--text">
-                    Ferme coopérative Potagers Partagés
-                </h3>
+                <router-link to="/" class="text-decoration-none">
+                    <h3 class="black--text">
+                        Ferme Coopérative Les Potagers Partagés
+                    </h3>
+                </router-link>
             </div>
 
             <v-spacer></v-spacer>
-
+            <v-btn to="/" text class="black--text">À propos</v-btn>
+            <v-btn to="/contact" text class="black--text">Contactez-nous</v-btn>
             <v-btn
                     href="https://github.com/vuetifyjs/vuetify/releases/latest"
                     target="_blank"
@@ -42,23 +45,30 @@
         </v-app-bar>
 
         <v-content>
-            <LaFerme/>
+            <router-view/>
         </v-content>
     </v-app>
 </template>
 
 <script>
-    import LaFerme from './components/LaFerme';
-
     export default {
         name: 'App',
 
-        components: {
-            LaFerme,
-        },
+        components: {},
 
         data: () => ({
             //
         }),
     };
 </script>
+<style lang="scss">
+    a {
+        font-weight: bold;
+        color: #2c3e50;
+
+        & .router-link-exact-active {
+            color: #42b983;
+        }
+
+    }
+</style>

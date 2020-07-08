@@ -1,14 +1,6 @@
 <template>
     <v-container>
         <v-row>
-            <!--      <v-col cols="12">-->
-            <!--        <v-img-->
-            <!--          :src="require('../assets/logo.svg')"-->
-            <!--          class="my-3"-->
-            <!--          contain-->
-            <!--          height="200"-->
-            <!--        />-->
-            <!--      </v-col>-->
             <v-col cols="4"></v-col>
             <v-col cols="4">
                 <h2 class="font-weight-thin mb-4">La ferme</h2>
@@ -17,9 +9,12 @@
                         class="my-3"
                         contain
                 />
-                <p class="subheading font-weight-regular">
+                <p>
                     Nous cultivons sur environ 3 acres une trentaine de variétés de légumes. Nous avons aussi un jardin
-                    de semences d'un tiers d'acres. Notre serre est de 30x100 pied et nous améliorons nos installations
+                    de semences d'un tiers d'acres.
+                </p>
+                <p>
+                    Notre serre est de 30x100 pied et nous améliorons nos installations
                     à chaque année.
                 </p>
                 <p>
@@ -30,7 +25,23 @@
                         Les paniers bio, un geste pour la planète
                     </v-card-title>
                     <v-card-text>
-                        Les pesticides de synthèse épandus en agriculture conventionnelle qui peuvent pénétrer dans les cultures ou laisser des traces de résidus à l’extérieur des aliments (ex. : pelure). Les enfants demeurent les plus sensibles à ces produits, leur système immunitaire ne leur permettant pas de se défendre aussi efficacement que les adultes.
+                        <p>
+                            Les
+                            <a href="https://www.equiterre.org/solution/les-pesticides-quest-ce-que-cest">
+                                pesticides de synthèse
+                            </a>
+                            épandus en agriculture conventionnelle qui peuvent pénétrer dans les cultures ou laisser des
+                            traces de résidus à l’extérieur des aliments (ex. : pelure). Les enfants demeurent les plus
+                            sensibles à ces produits, leur système immunitaire ne leur permettant pas de se défendre
+                            aussi
+                            efficacement que les adultes.
+                        </p>
+                        <p>
+                            Des paniers de légumes « zéro déchet » dans la majorité des fermiers pour une réduction à la source des emballages. Si c’est réellement nécessaire, les emballages fournis sont souvent récupérés par le fermier (élastique, casseaux, etc.) ou peuvent être compostés ou recyclés pour une réduction au minimum de leur impact. Amenez simplement vos contenants et vos sacs réutilisables et le tour est joué!
+                        </p>
+                        <p>
+                            En appuyant les fermiers d’ici, vous favorisez un circuit court en alimentation. De fait, vous contribuez grandement à réduire le kilométrage alimentaire (en moyenne de 2 500 km!) que parcourent les aliments, de leur lieu de cueillette à votre assiette. Une contribution significative à la réduction des gaz à effet de serre (GES).
+                        </p>
                     </v-card-text>
                 </v-card>
             </v-col>
