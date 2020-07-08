@@ -32,6 +32,7 @@
             </div>
 
             <v-spacer></v-spacer>
+            <v-btn to="/abonner" text class="black--text">S'abonner</v-btn>
             <v-btn to="/" text class="black--text">À propos</v-btn>
             <v-btn to="/contact" text class="black--text">Contactez-nous</v-btn>
             <v-btn
@@ -44,9 +45,9 @@
             </v-btn>
         </v-app-bar>
 
-        <v-content>
+        <v-main>
             <router-view/>
-        </v-content>
+        </v-main>
     </v-app>
 </template>
 
@@ -70,5 +71,9 @@
             color: #42b983;
         }
 
+    }
+
+    .link-color {
+        color: #0000FF;
     }
 </style>
