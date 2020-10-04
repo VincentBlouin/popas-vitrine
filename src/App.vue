@@ -26,25 +26,51 @@
                 <!--        />-->
                 <router-link to="/" class="text-decoration-none">
                     <h3 class="black--text">
-                        Ferme Coopérative Les Potagers Partagés
+                      <span>Ferme Coopérative Les Potagers Partagés</span>
                     </h3>
                 </router-link>
             </div>
 
             <v-spacer></v-spacer>
-            <v-btn to="/abonner" text class="black--text">S'abonner</v-btn>
-            <v-btn to="/" text class="black--text">À propos</v-btn>
-            <v-btn to="/contact" text class="black--text">Contactez-nous</v-btn>
-            <v-btn
-                    href="https://github.com/vuetifyjs/vuetify/releases/latest"
-                    target="_blank"
-                    text
-            >
-                <span class="mr-2">Latest Release</span>
-                <v-icon>mdi-open-in-new</v-icon>
-            </v-btn>
+            <v-btn to="/abonner" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">S'abonner</v-btn>
+            <v-btn to="/" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">À propos</v-btn>
+            <v-btn to="/contact" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Contactez-nous</v-btn>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="black--text" v-if="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
+          <v-navigation-drawer
+              clipped
+              v-model="drawer"
+              enable-resize-watcher
+              fixed
+              app
+              dense
+              hide-overlay
+              light
+          >
+            <v-list>
+              <v-list-item>
+                <v-list-item-content>
+                  <v-list-item-title>
+                    <v-btn to="/abonner" text class="black--text">S'abonner</v-btn>
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+              <v-list-item>
+                <v-list-item-content>
+                  <v-list-item-title>
+                    <v-btn to="/" text class="black--text">À propos</v-btn>
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+              <v-list-item>
+                <v-list-item-content>
+                  <v-list-item-title>
+                    <v-btn to="/contact" text class="black--text">Contactez-nous</v-btn>
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </v-list>
+          </v-navigation-drawer>
         </v-app-bar>
-
         <v-main>
             <router-view/>
         </v-main>
@@ -58,7 +84,7 @@
         components: {},
 
         data: () => ({
-            //
+            drawer:false
         }),
     };
 </script>
