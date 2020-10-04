@@ -20,6 +20,11 @@ const routes = [
         path: '/abonner',
         name: 'Abonner',
         component: () => import(/* webpackChunkName: "about" */ '../views/Abonner.vue')
+    },
+    {
+        path: '/offre-emploi',
+        name: 'OffreEmploi',
+        component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploi.vue')
     }
 ]
 
