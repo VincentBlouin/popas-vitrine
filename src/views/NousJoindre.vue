@@ -17,8 +17,11 @@
             </v-list-item-icon>
             <v-list-item-content>
               <v-list-item-title>
-                163 6e Avenue Ouest Paspébiac G0C 2K0
+                163 6e Avenue Ouest Paspébiac
               </v-list-item-title>
+              <v-list-item-subtitle>
+                G0C 2K0
+              </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
           <v-list-item href="mailto:potagerspartages@gmail.com">
