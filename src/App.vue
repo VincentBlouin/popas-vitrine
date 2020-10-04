@@ -70,6 +70,13 @@
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          <v-list-item>
+            <v-list-item-content>
+              <v-list-item-title>
+                <v-btn to="/offre-emploi" text class="black--text">Offre d'emploi</v-btn>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
     </v-app-bar>
