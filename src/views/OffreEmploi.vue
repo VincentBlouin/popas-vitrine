@@ -83,7 +83,10 @@
             Salaire de base à 15$/h
           </li>
           <li>
-            1er mai à la mi-novembre
+            Travail de planification début 2021, peut se faire à distance
+          </li>
+          <li>
+            Travail sur le terrain du 1er mai à la mi-novembre
           </li>
           <li>
             Possibilité de louer un logement sur place
