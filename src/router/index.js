@@ -25,6 +25,11 @@ const routes = [
         path: '/offre-emploi',
         name: 'OffreEmploi',
         component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploi.vue')
+    },
+    {
+        path: '/job-offer',
+        name: 'OffreEmploiEn',
+        component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploiEn.vue')
     }
 ]
 
