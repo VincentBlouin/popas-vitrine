@@ -9,10 +9,10 @@
             type="info"
             elevation="2"
         >
-          Les heures d'ouverture sont encore à déterminer
+          Les heures d'ouverture pour la saison 2021 sont encore à déterminer
         </v-alert>
         <v-img
-            :src="require('../assets/marché.jpg')"
+            :src="require('../assets/solange_kiosque.jpg')"
             class="my-3"
             contain
         />
