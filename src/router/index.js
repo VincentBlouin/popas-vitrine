@@ -30,7 +30,12 @@ const routes = [
         path: '/job-offer',
         name: 'OffreEmploiEn',
         component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploiEn.vue')
-    }
+    },
+    {
+        path: '/ouverture',
+        name: 'Ouverture',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Ouverture.vue')
+    },
 ]
 
 const router = new VueRouter({

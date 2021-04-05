@@ -32,6 +32,7 @@
       </div>
 
       <v-spacer></v-spacer>
+      <v-btn to="/ouverture" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Heures d'ouverture</v-btn>
       <v-btn to="/abonner" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">S'abonner</v-btn>
       <v-btn to="/" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">À propos</v-btn>
       <v-btn to="/contact" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Contactez-nous</v-btn>
@@ -49,6 +50,13 @@
           light
       >
         <v-list>
+          <v-list-item>
+            <v-list-item-content>
+              <v-list-item-title>
+                <v-btn to="/ouverture" text class="black--text">Heures d'ouverture</v-btn>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title>

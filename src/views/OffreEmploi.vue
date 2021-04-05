@@ -2,7 +2,7 @@
   <v-container>
     <v-row align="center"
            justify="center">
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="8" xl="6">
         <h2 class="font-weight-thin mb-4">Offre d'emploi</h2>
         <h2 class="font-weight-regular mb-4">Co-gestionnaire de culture maraîchère biologique</h2>
         <h3 class="mt-4 mb-4">Mission des Potagers Partagés</h3>

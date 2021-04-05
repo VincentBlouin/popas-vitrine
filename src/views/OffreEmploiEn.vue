@@ -2,7 +2,7 @@
   <v-container>
     <v-row align="center"
            justify="center">
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="8" xl="6">
         <h2 class="font-weight-thin mb-4">Job offer</h2>
         <h2 class="font-weight-regular mb-4">Co-manager of Organic Vegetable Cultivation</h2>
         <h3 class="mt-4 mb-4">Potagers Partagés’s Mission</h3>

@@ -2,13 +2,8 @@
   <v-container>
     <v-row align="center"
            justify="center">
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="8" xl="6">
         <h2 class="font-weight-thin mb-4">Contactez nous</h2>
-        <v-img
-            :src="require('../assets/kiosque.jpg')"
-            class="my-3"
-            contain
-        />
         <v-list outlined>
           <v-list-item
               href="https://www.google.com/maps/place/Ferme+coop%C3%A9rative+les+potagers+partag%C3%A9s/@48.0603923,-65.2844275,17z/data=!3m1!4b1!4m5!3m4!1s0x4c991b94c1ed54cd:0x748454e90bfcb307!8m2!3d48.0603923!4d-65.2822334">
@@ -56,6 +51,11 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
+        <v-img
+            :src="require('../assets/kiosque.jpg')"
+            class="my-3"
+            contain
+        />
       </v-col>
     </v-row>
   </v-container>
