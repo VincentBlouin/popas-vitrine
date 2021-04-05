@@ -12,7 +12,7 @@
           Les heures d'ouverture pour la saison 2021 sont encore à déterminer
         </v-alert>
         <v-img
-            :src="require('../assets/solange_kiosque.jpg')"
+            :src="require('../assets/legumes.jpg')"
             class="my-3"
             contain
         />

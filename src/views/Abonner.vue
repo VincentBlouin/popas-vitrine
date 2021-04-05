@@ -37,7 +37,7 @@
           <!--          </v-list-item>-->
         </v-list>
         <v-img
-            :src="require('../assets/legumes.jpg')"
+            :src="require('../assets/legumes2.jpg')"
             class="my-3"
             contain
         />
