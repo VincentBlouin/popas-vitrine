@@ -17,7 +17,7 @@
           Le kiosque est ouvert les jeudis et dimanches de 10h à 18h à partir du 9 juillet.
         </v-alert>
         <v-list flat>
-          <v-list-item href="https://bit.ly/panierslivrés2020" :class="{
+          <v-list-item href="https://bit.ly/PaniersPotagersPartagés2021" :class="{
             'pl-0 pr-0': $vuetify.breakpoint.smAndDown
           }">
             <v-list-item-icon>
@@ -32,21 +32,21 @@
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item href="https://bit.ly/panierslibreservice2020" :class="{
-            'pl-0 pr-0': $vuetify.breakpoint.smAndDown
-          }">
-            <v-list-item-icon>
-              <v-icon>store</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title>
-                S'abonner aux paniers libre-service
-              </v-list-item-title>
-              <v-list-item-subtitle>
-                Au kiosque ou aux marchés public
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
+<!--          <v-list-item href="https://bit.ly/panierslibreservice2020" :class="{-->
+<!--            'pl-0 pr-0': $vuetify.breakpoint.smAndDown-->
+<!--          }">-->
+<!--            <v-list-item-icon>-->
+<!--              <v-icon>store</v-icon>-->
+<!--            </v-list-item-icon>-->
+<!--            <v-list-item-content>-->
+<!--              <v-list-item-title>-->
+<!--                S'abonner aux paniers libre-service-->
+<!--              </v-list-item-title>-->
+<!--              <v-list-item-subtitle>-->
+<!--                Au kiosque ou aux marchés public-->
+<!--              </v-list-item-subtitle>-->
+<!--            </v-list-item-content>-->
+<!--          </v-list-item>-->
         </v-list>
       </v-col>
     </v-row>
