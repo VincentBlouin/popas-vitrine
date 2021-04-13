@@ -36,7 +36,7 @@
       <v-btn to="/abonner" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">S'abonner</v-btn>
       <v-btn to="/" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">À propos</v-btn>
       <v-btn to="/contact" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Contactez-nous</v-btn>
-      <v-btn to="/offre-emploi" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Offre d'emploi</v-btn>
+<!--      <v-btn to="/offre-emploi" text class="black&#45;&#45;text" v-if="$vuetify.breakpoint.mdAndUp">Offre d'emploi</v-btn>-->
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="black--text"
                           v-if="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
       <v-navigation-drawer
@@ -78,13 +78,13 @@
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>
-                <v-btn to="/offre-emploi" text class="black--text">Offre d'emploi</v-btn>
-              </v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
+<!--          <v-list-item>-->
+<!--            <v-list-item-content>-->
+<!--              <v-list-item-title>-->
+<!--                <v-btn to="/offre-emploi" text class="black&#45;&#45;text">Offre d'emploi</v-btn>-->
+<!--              </v-list-item-title>-->
+<!--            </v-list-item-content>-->
+<!--          </v-list-item>-->
         </v-list>
       </v-navigation-drawer>
     </v-app-bar>
