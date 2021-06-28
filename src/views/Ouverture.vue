@@ -6,10 +6,23 @@
         <h2 class="font-weight-thin mb-4">Heures d'ouverture</h2>
         <v-alert
             colored-border
-            type="info"
             elevation="2"
         >
-          Les heures d'ouverture pour la saison 2021 sont encore à déterminer
+          <p>
+            Le kiosque est ouvert le <strong>jeudi</strong> et le <strong>dimanche</strong> de
+            <strong>10h à 18h</strong>
+          </p>
+          <ul>
+            <li class="pb-4">
+              De 10h à 14h un employé est présent au kiosque pour vous servir.
+            </li>
+            <li class="pb-4">
+              De 14h à 18h le kiosque est en libre service avec assistance au besoin.
+            </li>
+          </ul>
+          <p>
+            Au besoin contactez nous au <a href="tel:581-233-7672">581-233-7672</a>
+          </p>
         </v-alert>
         <v-img
             :src="require('../assets/legumes.jpg')"
