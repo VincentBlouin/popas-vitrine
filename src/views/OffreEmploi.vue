@@ -12,7 +12,7 @@
           <span class="text-decoration-underline">communauté intentionnelle</span>
           à laquelle la ferme fournit des aliments sains et éco-responsables. La coopérative offre aussi
           ses produits à la communauté plus large, et ce à travers des paniers, un kiosque libre-service, des parts de
-          récolte, de la vente de semences et des marchés.
+          récolte et des marchés.
         </p>
         <h3 class="mt-4 mb-4">Principales fonctions</h3>
         <h4 class="body-1 mb-3">
@@ -20,7 +20,7 @@
         </h4>
         <ul class="body-1">
           <li>
-            Planification de la production pour 2021
+            Planification de la production pour 2022
           </li>
           <li>
             S’assurer du bon fonctionnement de la ferme
@@ -38,7 +38,7 @@
             Dépistage et phytoprotection
           </li>
           <li>
-            Gestion du personnel
+            Gestion hebdomadaire de l'équipe
           </li>
           <li>
             Service à la clientèle
@@ -83,7 +83,7 @@
             Salaire de base à 15$/h
           </li>
           <li>
-            Travail de planification début 2021, peut se faire à distance
+            Travail de planification début 2022, peut se faire à distance
           </li>
           <li>
             Travail sur le terrain du 1er mai à la mi-novembre

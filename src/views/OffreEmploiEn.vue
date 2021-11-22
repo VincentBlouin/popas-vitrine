@@ -11,7 +11,7 @@
             href="http://manoir.community">Manoir</a>'s projects.
           The Manoir is an
           <span class="text-decoration-underline">intentional community</span>
-          to which the Farm supplies healthy and eco-friendly vegetables. The farm also offers products to the wider local community in different ways: vegetable baskets, selling stand, harvest’s shares, seed production and local markets.
+          to which the Farm supplies healthy and eco-friendly vegetables. The farm also offers products to the wider local community in different ways: vegetable baskets, selling stand, harvest’s shares and local markets.
         </p>
         <h3 class="mt-4 mb-4">Main responsabilities</h3>
         <h4 class="body-1 mb-3">
@@ -19,7 +19,7 @@
         </h4>
         <ul class="body-1">
           <li>
-            Plan the production for 2021
+            Plan the production for 2022
           </li>
           <li>
             Make the the farm’s operations run smoothly
@@ -37,7 +37,7 @@
             Screening and phytoprotection
           </li>
           <li>
-            Staff management
+            Team coordination
           </li>
           <li>
             Customer service
@@ -82,7 +82,7 @@
             Base salary at $15 / hr
           </li>
           <li>
-            Farm planning work starts early in 2021, can be done remotely
+            Farm planning work starts early in 2022, can be done remotely
           </li>
           <li>
             Fieldwork from May 1 to mid-November
