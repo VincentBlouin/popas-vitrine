@@ -73,6 +73,9 @@
           <li>
             Intérêt pour les communautés intentionnelles à revenus partagés, un atout
           </li>
+          <li>
+            Connaissance mécanique un atout
+          </li>
         </ul>
         <h3 class="mt-4 mb-4">Conditions de travail</h3>
         <ul class="body-1">
@@ -86,7 +89,7 @@
             Travail de planification début 2022, peut se faire à distance
           </li>
           <li>
-            Travail sur le terrain du 1er mai à la mi-novembre
+            Travail sur le terrain du 1er mai à la fin septembre
           </li>
           <li>
             Possibilité de louer un logement sur place

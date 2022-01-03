@@ -72,6 +72,9 @@
           <li>
             Interest in intentional communities with shared revenues, an asset
           </li>
+          <li>
+            Knowledge in mechanics, an asset
+          </li>
         </ul>
         <h3 class="mt-4 mb-4">Working Conditions</h3>
         <ul class="body-1">
@@ -85,7 +88,7 @@
             Farm planning work starts early in 2022, can be done remotely
           </li>
           <li>
-            Fieldwork from May 1 to mid-November
+            Fieldwork from May 1 to end of september
           </li>
           <li>
             Renting accommodation available on site
