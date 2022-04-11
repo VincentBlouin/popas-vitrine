@@ -16,7 +16,7 @@
             Entre 14h et 18h
           </v-card-text>
           <v-card-text class="font-weight-regular text-h6 text--black vh-center">
-            Du 7 juillet jusqu'au 22 septembre.
+            Du 7 juillet au 22 septembre.
           </v-card-text>
         </v-card>
         <v-card class="mt-12 mb-12">
