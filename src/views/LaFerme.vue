@@ -10,7 +10,7 @@
             Ferme à Paspébiac
           </v-card-title>
           <v-card-subtitle class="text-h6 font-weight-regular text-center">
-            Pour des légumes local, biologiques et de saison
+            Pour des légumes locaux, biologiques et de saison
           </v-card-subtitle>
         </v-card>
         <v-list class="mb-10" outlined>
