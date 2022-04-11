@@ -9,13 +9,13 @@
             Au coin St-Pie X / 132 devant l'hôtel de ville
           </v-card-title>
           <v-divider></v-divider>
-          <v-card-text class="font-weight-bold body-1 text--black pb-0 vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black pb-0 vh-center">
             Tous les jeudis
           </v-card-text>
-          <v-card-text class="font-weight-bold body-1 text--black pb-0 vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black pb-0 vh-center">
             Entre 14h et 18h
           </v-card-text>
-          <v-card-text class="font-weight-bold body-1 text--black vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black vh-center">
             Du 7 juillet jusqu'au 22 septembre.
           </v-card-text>
         </v-card>
@@ -24,13 +24,13 @@
             Au marché de New Carlisle
           </v-card-title>
           <v-divider></v-divider>
-          <v-card-text class="font-weight-bold body-1 text--black pb-0 vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black pb-0 vh-center">
             Tous les samedis
           </v-card-text>
-          <v-card-text class="font-weight-bold body-1 text--black pb-0 vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black pb-0 vh-center">
             Entre 9h et midi
           </v-card-text>
-          <v-card-text class="font-weight-bold body-1 text--black vh-center">
+          <v-card-text class="font-weight-regular text-h6 text--black vh-center">
             Du 23 juillet au 24 septembre
           </v-card-text>
         </v-card>
