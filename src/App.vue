@@ -33,10 +33,10 @@
 
       <v-spacer></v-spacer>
       <v-btn to="/ouverture" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Heures d'ouverture</v-btn>
-      <v-btn to="/abonner" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">S'abonner</v-btn>
+      <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Compte prépayé</v-btn>
       <v-btn to="/" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">À propos</v-btn>
       <v-btn to="/contact" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Contactez-nous</v-btn>
-      <v-btn to="/offre-emploi" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Offre d'emploi</v-btn>
+<!--      <v-btn to="/offre-emploi" text class="black&#45;&#45;text" v-if="$vuetify.breakpoint.mdAndUp">Offre d'emploi</v-btn>-->
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="black--text"
                           v-if="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
       <v-navigation-drawer
@@ -60,7 +60,7 @@
           <v-list-item>
             <v-list-item-content>
               <v-list-item-title>
-                <v-btn to="/abonner" text class="black--text">S'abonner</v-btn>
+                <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black--text">Compte prépayé</v-btn>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
