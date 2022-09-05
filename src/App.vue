@@ -8,14 +8,14 @@
           flat
       >
         <div class="d-flex align-center">
-          <!--        <v-img-->
-          <!--          alt="Vuetify Logo"-->
-          <!--          class="shrink mr-2"-->
-          <!--          contain-->
-          <!--          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"-->
-          <!--          transition="scale-transition"-->
-          <!--          width="40"-->
-          <!--        />-->
+                  <v-img
+                    alt="Logo Potagers Partagés"
+                    class="shrink"
+                    contain
+                    :src="require('@/assets/popa-logo-carré-vert-foncé.png')"
+                    transition="scale-transition"
+                    width="55"
+                  />
 
           <!--        <v-img-->
           <!--          alt="Vuetify Name"-->
@@ -26,7 +26,7 @@
           <!--          width="100"-->
           <!--        />-->
           <router-link to="/" class="text-decoration-none">
-            <h3 class="black--text">
+            <h3 class="black--text logo-font">
               <span>Ferme Coopérative Les Potagers Partagés</span>
             </h3>
           </router-link>
@@ -132,6 +132,22 @@ export default {
 };
 </script>
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin%20Slab&display=swap&display=swap');
+.logo-font {
+  font-family: 'Josefin Slab', sans-serif;
+  text-decoration: none !important;
+  font-size:30px;
+  font-weight: lighter;
+  //text-shadow:
+  //    -1px -1px 0 #17347c,
+  //    0   -1px 0 #17347c,
+  //    1px -1px 0 #17347c,
+  //    1px  0   0 #17347c,
+  //    1px  1px 0 #17347c,
+  //    0    1px 0 #17347c,
+  //    -1px  1px 0 #17347c,
+  //    -1px  0   0 #17347c;
+}
 a {
   font-weight: bold;
   color: #2c3e50;
