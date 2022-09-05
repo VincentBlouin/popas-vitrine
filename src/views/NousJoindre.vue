@@ -50,6 +50,17 @@
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          <v-list-item
+              href="http://eepurl.com/gXVV-T">
+            <v-list-item-icon>
+              <v-icon>mark_email_read</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>
+                Notre infolettre
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
         </v-list>
         <v-img
             :src="require('../assets/kiosque.jpg')"

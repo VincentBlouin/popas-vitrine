@@ -13,17 +13,16 @@
             Pour des légumes locaux, biologiques et de saison
           </v-card-subtitle>
         </v-card>
-        <v-list class="mb-10" outlined>
-          <v-list-item href="https://potagerspartages.ca/compte-prepaye-2022">
-            <v-list-item-title class="text-center text-h5 blue--text">
-<!--              <v-icon large>account_box</v-icon>-->
-              Ouvrez un compte prépayé
-              <v-list-item-subtitle class="text-center mt-3 body-1">
-                Vous pourrez l'utiliser pour acheter nos légumes cette saison
-              </v-list-item-subtitle>
-            </v-list-item-title>
-          </v-list-item>
-        </v-list>
+<!--        <v-list class="mb-10" outlined>-->
+<!--          <v-list-item href="https://potagerspartages.ca/compte-prepaye-2022">-->
+<!--            <v-list-item-title class="text-center text-h5 blue&#45;&#45;text">-->
+<!--              Ouvrez un compte prépayé-->
+<!--              <v-list-item-subtitle class="text-center mt-3 body-1">-->
+<!--                Vous pourrez l'utiliser pour acheter nos légumes cette saison-->
+<!--              </v-list-item-subtitle>-->
+<!--            </v-list-item-title>-->
+<!--          </v-list-item>-->
+<!--        </v-list>-->
 <!--        <h2 class="font-weight-thin mb-4">La ferme</h2>-->
         <p class="text-h6 font-weight-regular">
           Nous sommes une coopérative de 3 travailleurs qui embauche en plus de 2 à 3 employés par année.
