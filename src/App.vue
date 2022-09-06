@@ -10,7 +10,6 @@
         <div class="d-flex align-center">
                   <v-img
                     alt="Logo Potagers Partagés"
-                    class="shrink"
                     contain
                     :src="require('@/assets/popa-logo-carré-vert-foncé.png')"
                     transition="scale-transition"
