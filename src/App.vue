@@ -28,7 +28,7 @@
             <h3 class="black--text logo-font" :class="{
             'small-logo': $vuetify.breakpoint.smAndDown
           }">
-              <span>Les Potagers Partagés</span>
+              <span>Les Potagers partagés</span>
             </h3>
           </router-link>
         </div>
