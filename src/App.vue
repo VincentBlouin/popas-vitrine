@@ -25,8 +25,10 @@
           <!--          width="100"-->
           <!--        />-->
           <router-link to="/" class="text-decoration-none">
-            <h3 class="black--text logo-font">
-              <span>Ferme Coopérative Les Potagers Partagés</span>
+            <h3 class="black--text logo-font" :class="{
+            'small-logo': $vuetify.breakpoint.smAndDown
+          }">
+              <span>Les Potagers Partagés</span>
             </h3>
           </router-link>
         </div>
@@ -146,6 +148,9 @@ export default {
   //    0    1px 0 #17347c,
   //    -1px  1px 0 #17347c,
   //    -1px  0   0 #17347c;
+}
+.small-logo{
+  font-size:25px;
 }
 a {
   font-weight: bold;
