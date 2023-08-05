@@ -46,6 +46,6 @@
 
 <script>
 export default {
-  name: 'Abonner'
+  name: 'OuvertureInfo'
 }
 </script>

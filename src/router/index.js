@@ -19,7 +19,7 @@ const routes = [
     {
         path: '/abonner',
         name: 'Abonner',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Abonner.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/AbonnerPopas.vue')
     },
     {
         path: '/offre-emploi',
@@ -34,7 +34,7 @@ const routes = [
     {
         path: '/ouverture',
         name: 'Ouverture',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Ouverture.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/OuvertureInfo.vue')
     },
 ]
 

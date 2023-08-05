@@ -74,6 +74,6 @@
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'NousJoindre'
 }
 </script>
