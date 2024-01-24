@@ -3,6 +3,9 @@
     <v-row align="center"
            justify="center">
       <v-col cols="12" md="8" xl="6">
+        <v-alert  type="error" class="text-h6">
+          La ferme n'a pas d'opération commerciale cette année !
+        </v-alert>
         <h2 class="font-weight-thin mb-4">Heures d'ouverture 2022</h2>
         <v-card class="mt-12">
           <v-card-title class="vh-center">
