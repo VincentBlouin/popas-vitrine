@@ -27,6 +27,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploi.vue')
     },
     {
+        path: '/cooperant',
+        name: 'Cooperant',
+        component: () => import(/* webpackChunkName: "about" */ '../views/CooperatorInvite.vue')
+    },
+    {
         path: '/job-offer',
         name: 'OffreEmploiEn',
         component: () => import(/* webpackChunkName: "about" */ '../views/OffreEmploiEn.vue')
