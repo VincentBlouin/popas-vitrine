@@ -255,6 +255,11 @@
             </li>
           </ul>
         </p>
+        <p class="text-h6 font-weight-regular text-center">
+          <v-btn text to="/contact" x-large>
+            Contactez nous !
+          </v-btn>
+        </p>
       </v-col>
     </v-row>
   </v-container>
