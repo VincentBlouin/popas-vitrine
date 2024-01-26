@@ -7,7 +7,7 @@
     <v-row align="center"
            justify="center">
       <v-col cols="12" md="8" xl="6">
-        <h2 class="font-weight-thin mb-4">Saison 2024</h2>
+        <h2 class="font-weight-thin mb-4">Coopérants recherchés</h2>
         <p class="text-h6 font-weight-regular">
           Salut!
         </p>
