@@ -7,7 +7,7 @@
     <v-row align="center"
            justify="center">
       <v-col cols="12" md="8" xl="6">
-        <h2 class="font-weight-thin mb-4">Coopérants recherchés</h2>
+        <h2 class="font-weight-thin mb-4">Coopérant-es recherché-es</h2>
         <p class="text-h6 font-weight-regular">
           Salut!
         </p>
@@ -40,7 +40,9 @@
           Arrangements à discuter.
         </p>
         <p class="text-h6 font-weight-regular">
-          <a href="tel:418-751-3669">Contactez Vincent</a>
+          <router-link to="/contact">
+            Contactez-nous
+          </router-link>
           pour plus de détails ou pour visiter les installations.
         </p>
 
@@ -105,7 +107,7 @@
           Un plan de culture.
         </p>
         <p class="text-h6 font-weight-regular">
-          Une formation et/ou une expérience pertinente de minimum 2 saisons?
+          Une formation et/ou une expérience pertinente de minimum 2 saisons.
         </p>
         <p class="text-h6 font-weight-regular">
           Votre projet répond aux valeurs de la coop:
@@ -232,7 +234,8 @@
                   Nous sommes actuellement 3 membres travailleurs.
                 </li>
                 <li>
-                  Ce que nous offrons c'est le soutien à des maraîchers à temps plein, les membres actuels ne peuvent s'investir qu'à temps partiel.
+                  Ce que nous offrons c'est le soutien à des maraîchers à temps plein, les membres actuels ne peuvent
+                  s'investir qu'à temps partiel.
                 </li>
               </ul>
             </li>
