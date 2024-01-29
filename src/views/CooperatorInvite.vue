@@ -7,8 +7,23 @@
     <v-row align="center"
            justify="center">
       <v-col cols="12" md="8" xl="6">
-        <h2 class="font-weight-thin mb-4">Coopérant-es recherché-es</h2>
-        <p class="text-h6 font-weight-regular">
+        <v-card flat>
+          <v-img
+              :src="require('@/assets/semis.jpg')"
+              transition="scale-transition"
+              class="white--text align-end"
+              height="175"
+              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+          >
+            <v-card-title class="white--text" :class="{
+              'text-h4': $vuetify.breakpoint.mdAndUp,
+              'text-h5': $vuetify.breakpoint.smAndDown
+            }">
+              Coopérant-es recherché-es
+            </v-card-title>
+          </v-img>
+        </v-card>
+        <p class="text-h6 font-weight-regular mt-8">
           Salut!
         </p>
         <p class="text-h6 font-weight-regular">

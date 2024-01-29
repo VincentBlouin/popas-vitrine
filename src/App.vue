@@ -15,20 +15,12 @@
                     transition="scale-transition"
                     width="55"
                   />
-
-          <!--        <v-img-->
-          <!--          alt="Vuetify Name"-->
-          <!--          class="shrink mt-1 hidden-sm-and-down"-->
-          <!--          contain-->
-          <!--          min-width="100"-->
-          <!--          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"-->
-          <!--          width="100"-->
-          <!--        />-->
           <router-link to="/" class="text-decoration-none">
             <h3 class="black--text logo-font" :class="{
             'small-logo': $vuetify.breakpoint.smAndDown
           }">
-              <span>Les Potagers partagés</span>
+              <span v-if="$vuetify.breakpoint.mdAndUp">Les Potagers partagés</span>
+              <span v-if="$vuetify.breakpoint.smAndDown">Potagers partagés</span>
             </h3>
           </router-link>
         </div>
