@@ -3,33 +3,39 @@
     <v-app>
       <v-app-bar
           app
-          color="transparent"
+          color="white"
           dark
           flat
       >
         <div class="d-flex align-center">
-                  <v-img
-                    alt="Logo Potagers Partagés"
-                    contain
-                    :src="require('@/assets/popa-logo-carré-vert-foncé.png')"
-                    transition="scale-transition"
-                    width="55"
-                  />
+          <v-img
+              alt="Logo Potagers Partagés"
+              contain
+              :src="require('@/assets/popa-logo-carré-vert-foncé.png')"
+              transition="scale-transition"
+              width="55"
+          />
           <router-link to="/" class="text-decoration-none">
-            <h3 class="black--text logo-font" :class="{
+            <h3 class="black--text logo-font " :class="{
             'small-logo': $vuetify.breakpoint.smAndDown
-          }">
-              Les Potagers Partagés
+          }"
+                style="white-space: nowrap;"
+            >
+              <span v-if="$vuetify.breakpoint.mdAndUp">
+                Les
+              </span>
+              Potagers Partagés
             </h3>
           </router-link>
         </div>
 
         <v-spacer></v-spacer>
         <v-btn to="/ouverture" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Heures d'ouverture</v-btn>
-<!--        <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black&#45;&#45;text" v-if="$vuetify.breakpoint.mdAndUp">Compte prépayé</v-btn>-->
+        <!--        <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black&#45;&#45;text" v-if="$vuetify.breakpoint.mdAndUp">Compte prépayé</v-btn>-->
         <v-btn to="/" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">À propos</v-btn>
         <v-btn to="/cooperant" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Recrutement</v-btn>
-        <v-btn href="http://eepurl.com/gXVV-T" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Infolettre</v-btn>
+        <v-btn href="http://eepurl.com/gXVV-T" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Infolettre
+        </v-btn>
         <v-btn to="/contact" text class="black--text" v-if="$vuetify.breakpoint.mdAndUp">Contactez-nous</v-btn>
         <!--      <v-btn to="/offre-emploi" text class="black&#45;&#45;text" v-if="$vuetify.breakpoint.mdAndUp">Offre d'emploi</v-btn>-->
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="black--text"
@@ -52,13 +58,13 @@
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-<!--            <v-list-item>-->
-<!--              <v-list-item-content>-->
-<!--                <v-list-item-title>-->
-<!--                  <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black&#45;&#45;text">Compte prépayé</v-btn>-->
-<!--                </v-list-item-title>-->
-<!--              </v-list-item-content>-->
-<!--            </v-list-item>-->
+            <!--            <v-list-item>-->
+            <!--              <v-list-item-content>-->
+            <!--                <v-list-item-title>-->
+            <!--                  <v-btn href="https://potagerspartages.ca/compte-prepaye-2022" text class="black&#45;&#45;text">Compte prépayé</v-btn>-->
+            <!--                </v-list-item-title>-->
+            <!--              </v-list-item-content>-->
+            <!--            </v-list-item>-->
             <v-list-item>
               <v-list-item-content>
                 <v-list-item-title>
@@ -133,10 +139,11 @@ export default {
 </script>
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin%20Slab&display=swap&display=swap');
+
 .logo-font {
   font-family: 'Josefin Slab', sans-serif;
   text-decoration: none !important;
-  font-size:30px;
+  font-size: 30px;
   font-weight: lighter;
   //text-shadow:
   //    -1px -1px 0 #17347c,
@@ -148,9 +155,11 @@ export default {
   //    -1px  1px 0 #17347c,
   //    -1px  0   0 #17347c;
 }
-.small-logo{
-  font-size:20px;
+
+.small-logo {
+  font-size: 20px;
 }
+
 a {
   font-weight: bold;
   color: #2c3e50;
