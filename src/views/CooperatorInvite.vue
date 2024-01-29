@@ -17,7 +17,7 @@
           >
             <v-card-title class="white--text" :class="{
               'text-h4': $vuetify.breakpoint.mdAndUp,
-              'text-h5': $vuetify.breakpoint.smAndDown
+              'text-h6': $vuetify.breakpoint.smAndDown
             }">
               Coopérant-es recherché-es
             </v-card-title>
