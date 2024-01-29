@@ -19,8 +19,7 @@
             <h3 class="black--text logo-font" :class="{
             'small-logo': $vuetify.breakpoint.smAndDown
           }">
-              <span v-if="$vuetify.breakpoint.mdAndUp">Les Potagers partagés</span>
-              <span v-if="$vuetify.breakpoint.smAndDown">Potagers partagés</span>
+              Les Potagers Partagés
             </h3>
           </router-link>
         </div>
@@ -150,7 +149,7 @@ export default {
   //    -1px  0   0 #17347c;
 }
 .small-logo{
-  font-size:25px;
+  font-size:20px;
 }
 a {
   font-weight: bold;
