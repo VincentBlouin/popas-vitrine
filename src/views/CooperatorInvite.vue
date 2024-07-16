@@ -24,44 +24,25 @@
           </v-img>
         </v-card>
         <p class="text-h6 font-weight-regular mt-8">
-          Salut!
+          Imagine commencer ton projet d’agriculture biologique sans partir de zéro : tout est prêt pour toi. Des champs
+          fertiles, une serre, un tracteur, une chambre froide, de nombreux outils, bref, tout l'équipement nécessaire
+          pour produire des légumes sont à ta disposition, au sein des Potagers Partagés, une coopérative maraîchère
+          ancrée en Gaspésie.
         </p>
         <p class="text-h6 font-weight-regular">
-          Tu veux te partir une ferme maraîchère bio, mais t'aimerais ça pas partir de zéro?
+          En rejoignant notre coopérative, tu bénéficieras du savoir-faire de membres expérimentés pouvant t'épauler :
+          de l'administration à la mise en marché, en passant par l'entretien des infrastructures et les travaux aux
+          champs.
         </p>
         <p class="text-h6 font-weight-regular">
-          Tu voudrais tester ta vocation d'entrepreneur-euse agricole sans avoir à t'endetter drette en commençant?
+          La ferme, active de 2017 à 2022 et sans aucune dette, offre un cadre idéal pour développer ton projet. De
+          plus, en optant pour notre formule coop, tu pourrais même bénéficier du chômage pour la saison froide.
         </p>
-        <p class="text-h6 font-weight-regular">
-          Viens partir ton projet en Gaspésie, dans la Baie-des-Chaleurs, dans une coopérative de travailleurs!
-        </p>
-        <ul class="text-h6 font-weight-regular">
-          <li>
-            Clé en main: champs, serre, chambres froides et matériels n'attendent que toi!
-          </li>
-          <li>
-            3 membres de la coop pour te prêter main forte: soutien à l'admin, à la mise en marché, à l'entretien des
-            infrastructures et des systèmes, au travail de sol, et main d'oeuvre agricole
-          </li>
-          <li>
-            Une ferme qui existe depuis 5 ans (en opération de 2017 à 2022): canaux de mise en marché et fertilité des
-            sols améliorée
-          </li>
-          <li>
-            En formule coop: possibilité de tirer du chômage à la fin de la saison
-          </li>
-        </ul>
-        <p class="text-h6 font-weight-regular">
-          Arrangements à discuter.
-        </p>
-        <p class="text-h6 font-weight-regular">
-          <router-link to="/contact">
-            Contactez-nous
-          </router-link>
-          pour plus de détails ou pour visiter les installations.
-        </p>
-
         <h2 class="mt-8">Membres de la coop</h2>
+        <p class="text-h6 font-weight-regular">
+          Trois membres composent actuellement la coopérative. Ces derniers ne sont pas disponibles à temps plein, mais
+          peuvent offrir un support inestimable aux nouveaux membres.
+        </p>
         <v-row>
           <v-col cols="12" lg="4" class="pt-0">
             <v-card
@@ -74,7 +55,8 @@
               ></v-img>
               <v-card-title>Arielle</v-card-title>
               <v-card-text class="text-h6 font-weight-regular">
-                Conduit le tracteur et peut faire l'entretien des infrastructures.
+                De la charpenterie à la soudure, en passant par la conduite du tracteur, elle peut donner tout un coup
+                de main sur une ferme.
               </v-card-text>
             </v-card>
           </v-col>
@@ -89,7 +71,8 @@
               ></v-img>
               <v-card-title>Vincent</v-card-title>
               <v-card-text class="text-h6 font-weight-regular">
-                Administration, recherche de subventions, mise en marché et aide dans les champs.
+                Après quelques années à s’impliquer dans la coop, il a une bonne expérience en administration, la
+                recherche de subventions, et la mise en marché. De plus, il est un allié considérable dans les champs.
               </v-card-text>
             </v-card>
           </v-col>
@@ -104,174 +87,91 @@
               ></v-img>
               <v-card-title>David</v-card-title>
               <v-card-text class="text-h6 font-weight-regular">
-                Expérience comme ouvrier agricole et mécanicien sur plusieurs fermes de la région depuis 2018.
-                Il a aussi travaillé comme accompagnant jardins.
+                Fort de son expérience d’ouvrier agricole sur diverses fermes locales depuis 2017, il est un complice
+                précieux pour toutes les étapes de la production.
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
-        <h2>Ce qu'on attend de vous</h2>
+        <h2>Ce que tu peux attendre de notre coopérative :</h2>
+        <ul class="text-h6 font-weight-regular mt-3">
+          <li>
+            <strong>Accès aux infrastructures et équipements de la ferme :</strong>
+            <ul>
+              <li>
+                Située sur une parcelle de 4 acres louée à une coopérative d’habitation.
+              </li>
+              <li>
+                Présentement en prairie d’engrais verts vivaces, clôturée contre les chevreuils, avec fumier disponible
+                pour les 2 prochaines années.
+              </li>
+              <li>
+                Équipements mécanisés incluant un tracteur agricole Kubota, herse à disque, vibro, peigne, et épandeur à
+                fumier.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Serre de 100’x30’ :</strong>
+            <ul>
+              <li>
+                Équipée d'un système d'irrigation goutte-à-goutte.
+              </li>
+              <li>
+                Côtés ouvrants automatiques, isolation et moustiquaires.
+              </li>
+              <li>
+                Système de chauffage du sol (batch rocket stove).
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Infrastructures supplémentaires :</strong>
+            <ul>
+              <li>
+                Salle de lavage et de conditionnement des légumes.
+              </li>
+              <li>
+                Grande chambre froide équipée d’un Cool Bot.
+              </li>
+              <li>
+                Grande chambre tiède isolée.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>
+              Autres équipements :
+            </strong>
+            <ul>
+              <li>
+                Système complet d’irrigation des champs, bâches, filets anti-insectes, plateaux, semoir Jang, baratte à légumes, bacs de récolte et de conservation, ainsi qu'une variété d'outils manuels.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>
+              Un contexte favorable pour réussir :
+            </strong>
+            <ul>
+              <li>
+                Le marché local est bon.
+              </li>
+              <li>
+                Le soutien des trois membres travailleurs expérimentés disponibles à temps partiel.
+              </li>
+              <li>
+                La ferme a fonctionné avec succès de 2017 à 2022 et n’a aucune dette.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2 class="mt-8">Ce qu’on attend de toi</h2>
         <p class="text-h6 font-weight-regular">
-          Dans l'idéal: nous cherchons 2 maraîcher-ères pour relancer la production agricole et se joindre à notre
-          coopérative de travailleurs.
+          Comme aucun de nous n’est disponible à temps plein, nous cherchons une personne ayant assez d’expérience en agriculture pour se sentir à l’aise de faire le plan de production, de la planification des semis à la mise en marché. De plus, celle-ci doit être à l’aise avec l’idée de gérer une équipe de travail si elle prévoit engager des employés.
         </p>
         <p class="text-h6 font-weight-regular">
-          Un plan d'affaire.
-        </p>
-        <p class="text-h6 font-weight-regular">
-          Un plan de culture.
-        </p>
-        <p class="text-h6 font-weight-regular">
-          Une formation et/ou une expérience pertinente de minimum 2 saisons.
-        </p>
-        <p class="text-h6 font-weight-regular">
-          Votre projet répond aux valeurs de la coop:
-          <ul>
-            <li>
-              Maraîchage qui respecte les principes de la culture biologique
-            </li>
-            <li>
-              Mise en marché en circuit court
-            </li>
-          </ul>
-        </p>
-        <h2 class="mt-8">Ce que vous pouvez attendre de la coop</h2>
-        <p class="text-h6 font-weight-regular">
-          <ul>
-            <li>
-              Accès aux infrastructures et matériel de la ferme:
-              <ul>
-                <li>
-                  Description du contexte
-                  <ul>
-                    <li>
-                      Terre louée par la coop de travail à une coop d'habitation
-                    </li>
-                    <li>
-                      4 acres
-                      <ul>
-                        <li>
-                          Présentement semé en prairie
-                        </li>
-                        <li>
-                          Clôturé contre les chevreuils
-                        </li>
-                        <li>
-                          Fumier pour les 2 prochaines années
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      Mécanisé petite surface
-                      <ul>
-                        <li>
-                          Tracteur agricole Kubota
-                        </li>
-                        <li>
-                          Herse à disque, vibro, peigne
-                        </li>
-                        <li>
-                          Épandeur à fumier
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      La ferme a été en opération 5 saisons, de 2017 à 2022.
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>
-              Serre (100’x30'),
-              <ul>
-                <li>
-                  Irrigation goutte-à-goutte
-                </li>
-                <li>
-                  Côtés ouvrants automatiques
-                </li>
-                <li>
-                  Isolation des côtés et moustiquaires
-                </li>
-                <li>
-                  Drainée
-                </li>
-                <li>
-                  Système de chauffage du sol (batch rocket stove)
-                </li>
-              </ul>
-            </li>
-            <li>
-              Infrastructures
-              <ul>
-                <li>
-                  Salle de conditionnement des légumes
-                </li>
-                <li>
-                  Salle de lavage
-                </li>
-                <li>
-                  Chambre froide (cool bot)
-                </li>
-                <li>
-                  Chambre tiède isolée
-                </li>
-              </ul>
-            </li>
-            <li>
-              Autres équipements
-              <ul>
-                <li>
-                  Système d’irrigation des champs
-                </li>
-                <li>
-                  bâches, filets antisectes, plateaux,
-                </li>
-                <li>
-                  semoir Jang,
-                </li>
-                <li>
-                  baratte à légumes,
-                </li>
-                <li>
-                  bacs de récolte et pour conservation
-                </li>
-                <li>
-                  outils manuels, etc.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Du soutien des autres membres de la coop.
-              <ul>
-                <li>
-                  Nous sommes actuellement 3 membres travailleurs.
-                </li>
-                <li>
-                  Ce que nous offrons c'est le soutien à des maraîchers à temps plein, les membres actuels ne peuvent
-                  s'investir qu'à temps partiel.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Un contexte favorable
-              <ul>
-                <li>
-                  Le marché dans la région est bon.
-                </li>
-                <li>
-                  La terre appartient à une coopérative d’habitation.
-                </li>
-                <li>
-                  La ferme a été opérationnelle de 2017 à 2022.
-                </li>
-                <li>
-                  La ferme n’a aucune dette.
-                </li>
-              </ul>
-            </li>
-          </ul>
+          Tu t’es rendu jusqu’ici, alors si tu as de l'expérience en agriculture, qu’en plus, tu partages nos valeurs de maraîchage biologique et de vente en circuit court, n'hésite pas à nous contacter pour en savoir plus ou organiser une visite.
         </p>
         <p class="text-h6 font-weight-regular text-center">
           <v-btn text to="/contact" x-large>
