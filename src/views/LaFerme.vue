@@ -30,9 +30,9 @@
         <p class="text-h6 font-weight-regular">
           Depuis 2017, nous produisons des légumes pour la région de Paspébiac et de la Baie des Chaleurs.
         </p>
-        <p class="text-h6 font-weight-regular">
-          Depuis 2018, nous sommes certifiés biologique par Ecocert Canada.
-        </p>
+<!--        <p class="text-h6 font-weight-regular">-->
+<!--          Depuis 2018, nous sommes certifiés biologique par Ecocert Canada.-->
+<!--        </p>-->
         <p class="text-h6 font-weight-regular">
           Nous cultivons sur 3 acres une variété de 30 légumes.
         </p>
